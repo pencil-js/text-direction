@@ -1,0 +1,20 @@
+{
+  "name": "text-direction",
+  "version": "0.1.0",
+  "description": "Get the text direction from the browser.",
+  "main": "text-direction.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GMartigny/text-direction.git"
+  },
+  "keywords": [
+    "ltr",
+    "rtl"
+  ],
+  "author": "Guillaume Martigny <guillaume.martigny@gmail.com> (https://www.guillaume-martigny.fr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GMartigny/text-direction/issues"
+  },
+  "homepage": "https://github.com/GMartigny/text-direction#readme"
+}
