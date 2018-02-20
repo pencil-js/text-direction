@@ -1,6 +1,6 @@
 {
   "name": "text-direction",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Get the text direction from the browser.",
   "main": "text-direction.js",
   "repository": {
