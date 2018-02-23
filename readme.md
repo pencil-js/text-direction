@@ -1,9 +1,28 @@
 # text-direction
+[![dependencies Status](https://david-dm.org/GMartigny/text-direction/status.svg)](https://david-dm.org/GMartigny/text-direction)
+[![devDependencies Status](https://david-dm.org/GMartigny/text-direction/dev-status.svg)](https://david-dm.org/GMartigny/text-direction?type=dev)
+
 Get the text direction from an element node.
 
 ## Installation
 
     npm install text-direction
+
+
+## CDN
+
+If you want to go old-school, you can fetch the script with [unpkg](https://unpkg.com/) or [jsdelivr](https://www.jsdelivr.com/).
+
+```html
+    <script src="https://unpkg.com/text-direction"></script>
+    <!-- or -->
+    <script src="https://cdn.jsdelivr.net/npm/text-direction"></script>
+    
+    <script>
+        console.log(textDirection());
+    </script>
+```
+
 
 ## Usage
 

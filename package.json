@@ -1,20 +1,41 @@
 {
   "name": "text-direction",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get the text direction from the browser.",
   "main": "text-direction.js",
+  "files": [
+    "dist/"
+  ],
+  "unpkg": "dist/text-direction.min.js",
+  "jsdelivr": "dist/text-direction.min.js",
+  "scripts": {
+    "lint": "eslint *.js",
+    "build": "webpack",
+    "prepublishOnly": "npm run lint && npm run build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GMartigny/text-direction.git"
   },
   "keywords": [
     "ltr",
-    "rtl"
+    "rtl",
+    "i18n"
   ],
   "author": "Guillaume Martigny <guillaume.martigny@gmail.com> (https://www.guillaume-martigny.fr)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/GMartigny/text-direction/issues"
   },
-  "homepage": "https://github.com/GMartigny/text-direction#readme"
+  "homepage": "https://github.com/GMartigny/text-direction#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "babel-loader": "^8.0.0-beta.0",
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "uglifyjs-webpack-plugin": "^1.2.0",
+    "webpack": "^3.11.0"
+  }
 }
