@@ -36,10 +36,10 @@
   "homepage": "https://github.com/pencil-js/text-direction#readme",
   "devDependencies": {
     "@gmartigny/eslint-config": "^1.2.3",
-    "ava": "^1.2.1",
-    "eslint": "^5.13.0",
-    "esm": "^3.2.4",
-    "webpack": "^4.29.3",
-    "webpack-cli": "^3.2.3"
+    "ava": "^1.4.1",
+    "eslint": "^5.16.0",
+    "esm": "^3.2.22",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
   }
 }
