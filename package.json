@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GMartigny/text-direction.git"
+    "url": "git+https://github.com/pencil-js/text-direction.git"
   },
   "keywords": [
     "ltr",
@@ -31,9 +31,9 @@
   "author": "Guillaume Martigny <guillaume.martigny@gmail.com> (https://www.guillaume-martigny.fr)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GMartigny/text-direction/issues"
+    "url": "https://github.com/pencil-js/text-direction/issues"
   },
-  "homepage": "https://github.com/GMartigny/text-direction#readme",
+  "homepage": "https://github.com/pencil-js/text-direction#readme",
   "devDependencies": {
     "@gmartigny/eslint-config": "^1.2.3",
     "ava": "^1.2.1",

@@ -1,6 +1,6 @@
 # text-direction
-[![dependencies Status](https://david-dm.org/GMartigny/text-direction/status.svg)](https://david-dm.org/GMartigny/text-direction)
-[![devDependencies Status](https://david-dm.org/GMartigny/text-direction/dev-status.svg)](https://david-dm.org/GMartigny/text-direction?type=dev)
+[![dependencies Status](https://david-dm.org/pencil-js/text-direction/status.svg)](https://david-dm.org/pencil-js/text-direction)
+[![devDependencies Status](https://david-dm.org/pencil-js/text-direction/dev-status.svg)](https://david-dm.org/pencil-js/text-direction?type=dev)
 
 Get the text direction from an element node.
 
