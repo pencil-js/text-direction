@@ -1,7 +1,9 @@
 import test from "ava";
-import textDirection from "./text-direction";
+import browserEnv from "browser-env";
+import textDirection from ".";
 
-test("text-direction", (t) => {
-    t.is(textDirection.constructor.name, "Function");
-    t.throws(() => textDirection(), ReferenceError, "Don't work in a node environment.");
+browserEnv(["document"]);
+
+test("Is not crashing", (t) => {
+    t.is(textDirection(), "");
 });
