@@ -19,7 +19,8 @@
     },
     "ava": {
         "require": [
-            "esm"
+            "esm",
+            "@pencil.js/test-environment"
         ]
     },
     "repository": {
@@ -39,12 +40,12 @@
     "homepage": "https://github.com/GMartigny/text-direction#readme",
     "devDependencies": {
         "@gmartigny/eslint-config": "^1.3.1",
-        "ava": "^2.2.0",
-        "browser-env": "^3.2.6",
-        "eslint": "^6.0.1",
-        "eslint-plugin-import": "^2.9.0",
+        "@pencil.js/test-environment": "^1.1.0",
+        "ava": "^3.0.0",
+        "eslint": "^6.8.0",
+        "eslint-plugin-import": "^2.20.0",
         "esm": "^3.2.25",
-        "webpack": "^4.35.3",
+        "webpack": "^4.41.5",
         "webpack-cli": "^3.3.5"
     }
 }
