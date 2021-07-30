@@ -6,6 +6,10 @@
     "files": [
         "dist/"
     ],
+    "type": "module",
+    "exports": {
+        "default": "./text-direction.js"
+    },
     "unpkg": "dist/text-direction.min.js",
     "jsdelivr": "dist/text-direction.min.js",
     "scripts": {
