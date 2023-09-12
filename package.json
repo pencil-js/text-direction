@@ -43,12 +43,10 @@
     },
     "homepage": "https://github.com/GMartigny/text-direction#readme",
     "devDependencies": {
-        "@gmartigny/eslint-config": "^1.7.0",
+        "@gmartigny/eslint-config": "^2.1.0",
         "@pencil.js/test-environment": "^1.2.1",
         "ava": "^3.15.0",
-        "eslint": "^7.32.0",
-        "esm": "^3.2.25",
-        "webpack": "^5.47.1",
-        "webpack-cli": "^4.7.2"
+        "eslint": "^8.49.0",
+        "esm": "^3.2.25"
     }
 }
