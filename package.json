@@ -1,6 +1,6 @@
 {
     "name": "text-direction",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Get the text direction from the browser.",
     "main": "text-direction.js",
     "type": "module",
