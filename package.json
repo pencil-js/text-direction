@@ -10,8 +10,7 @@
     "scripts": {
         "lint": "eslint text-direction.js",
         "test": "ava",
-        "build": "webpack --mode=production",
-        "prepublishOnly": "npm run lint && npm test && npm run build"
+        "prepublishOnly": "npm run lint && npm test"
     },
     "eslintConfig": {
         "extends": "@gmartigny/eslint-config"
